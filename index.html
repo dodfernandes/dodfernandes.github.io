@@ -5,14 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Douglas Fernandes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@200&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            background-color: #392B58;
+            font-family: 'Anybody', cursive;
+            color: #fff;
+            text-align: center;
+        }
+
+        a {
+            line-height: 40px;
+            
+        }
+
+        a:link {
+            color: #a1f7b1;
+        }
+
+        a:visited {
+            color: #186827;
+        }
+
+        a:hover {
+            color: #e5f7a1;
+        }
+        
+        #titulo01 {
+            font-size: 150px;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        #foto {
+            border-radius: 100%;
+        }
+
+        .listas {
+            list-style-type: square;
+            text-align: left;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>--=\ Meu Portfólio /=--</h1>
-    <hr>
-    <br>
+    <h1 id="titulo01">Meu Portfólio</h1>
     <h2>Seja bem-vindo ao meu Portfólio!</h2>
     <br>
-    <img src="https://avatars.githubusercontent.com/u/103674099?s=400&u=8a1edc612ca4f7224d94416f4bb5fe84074b90cc&v=4" alt="Escolhida com extrema dificuldade, essa é a foto atual de Douglas!" id="foto">
+    <img id="foto" src="https://avatars.githubusercontent.com/u/103674099?s=400&u=8a1edc612ca4f7224d94416f4bb5fe84074b90cc&v=4" alt="Escolhida com extrema dificuldade, essa é a foto atual de Douglas!" >
     <h2>Douglas Emanuel Sobrinho Fernandes</h2>
     <p>Me chamo <strong><em>Douglas Fernandes</em></strong>, tenho 33 anos, sou Brasileiro e moro no Rio de Janeiro - RJ.</p>
     <br>
@@ -29,8 +72,8 @@
         <a href="https://www.jovemnerd.com.br/" target="_blank" >Blog Preferido</a>
     </p>
     <hr>
-    <h3 id="paixoes">Paixões</h3>
-    <ul>
+    <h2 id="paixoes" class="listas">Paixões</h2>
+    <ul class="listas">
         <li>Filmes</li>
         <li>Séries</li>
         <li>Animações</li>
@@ -42,8 +85,8 @@
         <li>Tecnologia</li>
     </ul>
     <hr>
-    <h3 id="habilidades">Habilidades</h3>
-    <ul>
+    <h2 id="habilidades" class="listas">Habilidades</h2>
+    <ul class="listas">
         <li><strong>Criatividade</strong></li>
         <li>Gimp</li>
         <li>Krita</li>
